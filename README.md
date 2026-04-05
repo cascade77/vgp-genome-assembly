@@ -80,6 +80,20 @@ HiFi reads (3 FASTA files, PacBio CCS)
 
 ---
 
+## Data
+
+All input data was obtained from Zenodo as part of the GTN tutorial dataset.
+
+| Dataset | Format | Description |
+|---|---|---|
+| HiFi reads (3 files) | FASTA | PacBio HiFi long reads |
+| Hi-C reads (F + R) | fastqsanger.gz | Illumina Hi-C paired reads |
+| Bionano optical maps | .cmap | Bionano restriction enzyme map |
+
+Source: [https://zenodo.org/record/5887339](https://zenodo.org/record/5887339)
+
+---
+
 ## Tools
 
 | Tool | Version | Purpose |
@@ -142,7 +156,7 @@ confirms chromosome-level assembly.
 
 ## Platform
 
-All steps were run on Galaxy (usegalaxy.eu).
+All steps were run on Galaxy (usegalaxy.org).
 
 ## Reference
 
